@@ -1,0 +1,325 @@
+/* Wrapper for div classes */
+.wrapper {
+        display: grid;
+        grid-template-rows: 0.1fr 3.5fr 60px;
+        grid-template-columns: 0.5fr 1fr 1fr 0.5fr;
+        min-height: 100vh;
+        border: none;
+    }
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: palegoldenrod;
+}
+
+a:active {
+    color: white;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+        display: grid;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        background-color: black;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+main {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: #00bf7d;
+}
+
+/* Home page photo */
+.homephoto {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    padding: 20px;
+    padding-right: 90px;
+    align-items: center;
+}
+
+/* Border for homepage photo */
+.homephoto img {
+    border: 5px solid white;
+}
+
+/* Text for homepage */
+.hometext {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Top left "Elliot Hajjaj" */
+h1 {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+/* Site-wide h2 */
+h2 {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0px;
+    padding-top: 25px;
+}
+
+/* Text for resume */
+.resume-type h3 {
+    color: black;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-transform: uppercase;
+    font-size: 28px;
+    margin: 5px;
+}
+
+/* h4 for resume text */
+.resume-type h4 {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    margin: 0px;
+}
+
+/* site-wide p */
+p {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+}
+
+/* Nav */
+nav li {
+    list-style-type: none;
+    background-color: black;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+
+}
+
+nav a:hover {
+    color: palegoldenrod;
+    background-color: black;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    margin: 0;
+}
+
+/* Footer */
+footer {
+    display: grid;
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    color: white;
+    justify-content: center;
+    margin: 0px;
+}
+
+/* Top right in nav */
+.topright {
+    display: grid;
+    background-color: black;
+    font-size: 30px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+/* Top left in nav */
+.topleft {
+    display: grid;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color: black;
+    color: white;
+    padding-left: 5px;
+}
+
+/* Elliot in Nav */
+.elliot {
+    float: left;
+    padding: 2rem;
+
+}
+
+/* Left column of body */
+.leftcolumn {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    background-color:#00bf7d;
+}
+
+/* Right column of body */
+.rightcolumn {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 5;
+    background-color:#00bf7d;
+}
+
+/* Text for resume */
+.resume-type {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+}
+
+/* Email address styling */
+address {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+
+}
+
+/* Link style for resume */
+.resume-type a {
+    text-align: center;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+/* List style for resume */
+.resume-type ul {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 8px;
+}
+
+/* p style for resume */
+.resume-type p {
+    margin: 10px;
+}
+
+/* Text for portfolio */
+.portfolio-type {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* p for portfolio */
+.portfolio-type p {
+    padding-top: 5px;
+}
+
+/* Text for exercises */
+.exercises-type {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.exercises-type p {
+    text-align: center;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+/* Text for portfolio */
+.contact-type {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+/* Contact me buttons */
+.contact-type a:link {
+    display: grid;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal; 
+    text-transform: uppercase;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+    color: white;
+    padding: 10px 24px;
+    background-color: black;
+    position: relative;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+    width: 30%;
+}
